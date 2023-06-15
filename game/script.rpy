@@ -189,4 +189,62 @@ label hungryHeartsRefuse:
 
 label teddyBear:
 
-    "qqq"
+    show linda at left
+    show sophie at right
+    with dissolve
+
+    s "Mom! Mom! Mom!"
+    l "What's up, Sophie?"
+    
+    if donatedFood:
+
+        s "I saw a huge teddy bear in a toy store. It's so cute! Can you buy it for me, please?"
+        
+        jump teddyBearNoMoney
+
+    menu:
+
+        s "I saw a huge teddy bear in a toy store. It's so cute! Can you buy it for me, please?"
+
+        "Agree":
+
+            jump teddyBearAgree
+
+        "Refuse":
+
+            jump teddyBearRefuse
+
+
+label teddyBearAgree:
+
+    l "Of course, Sophie. I'll buy it for you."
+    s "Thank you, mom! You're the best!"
+    l "You're welcome, honey."
+
+    jump visitByElliot
+
+
+
+label teddyBearRefuse:
+
+    l "No, Sophie. I can't buy it for you. It cost very much and you will probably get bored of it in a few days. How about
+        I buy you a smaller teddy bear? And we can buy some other toys too."
+    s "Well, okay. I guess it's fine."
+
+    jump visitByElliot
+
+
+
+label teddyBearNoMoney:
+
+    l "I'm sorry, Sophie. I can't buy it for you. I'm really low on money after that fine and I can't afford it."
+    s "Oh, well, I see. It's sad that they fined you for helping people in need."
+    l "Yeah, I know. But I'm sure that everything will be fine."
+
+    jump visitByElliot
+
+
+
+label visitByElliot:
+
+    "The next day"
