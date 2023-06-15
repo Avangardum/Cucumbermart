@@ -64,7 +64,7 @@ label start:
 
     scene expression cucumbermartBackground with dissolve
     
-    "Tomorrow Cucumbermart opened. A lot of people cane to the store, it became quite popular. Profit was good and people
+    "Tomorrow Cucumbermart opened. A lot of people came to the store, it became quite popular. Profit was good and people
         liked the store. I was happy."
     
     jump hungryHearts
@@ -90,10 +90,10 @@ label hungryHearts:
         c "I'd like to ask you to help our organization by donating expired food from your store. We'll distribute it to those
         who need it. Will you help us?"
 
-        "Agree":
+        "Help":
             jump hungryHeartsAgree
             
-        "Refuse":
+        "Don't help":
             jump hungryHeartsRefuse
 
 
@@ -199,18 +199,18 @@ label teddyBear:
     if donatedFood:
 
         s "I saw a huge teddy bear in a toy store. It's so cute! Can you buy it for me, please?"
-        
+
         jump teddyBearNoMoney
 
     menu:
 
         s "I saw a huge teddy bear in a toy store. It's so cute! Can you buy it for me, please?"
 
-        "Agree":
+        "Buy the huge teddy bear":
 
             jump teddyBearAgree
 
-        "Refuse":
+        "Buy a small teddy bear instead":
 
             jump teddyBearRefuse
 
@@ -247,4 +247,83 @@ label teddyBearNoMoney:
 
 label visitByElliot:
 
+    scene expression cucumbermartBackground with dissolve
+
     "The next day"
+
+    show linda at right
+    show elliot at left
+    with dissolve
+
+    e "Hello, Linda. Nice store you have here. Looks very nice and cozy. It's clear that the store is run by a true
+        professional."
+    l "Thank you. I'm glad to hear that. What can I do for you?"
+
+    menu:
+
+        e "My name is Elliot Saunders. I'd like to ask you how is your business going."
+
+        "Good":
+
+            l "It's going well. The store is quite popular and I'm making a good profit."
+            e "I'm glad to hear that. You managed to take a good place in the market as the city is new and there are not
+                many stores here yet. But I think that the competition will get tougher as more stores will open."
+            e "I am from Titan Hypermart upper management. You have probably heard that we are about to open a store in
+                this city. I think it would be better for all of us if we worked together."
+            l "What do you mean?"
+            e "We'd like to buy this store from you. It will become a part of Titan Hypermart. You will receive a lot of
+                money for it. And you will be able to keep working here as a manager and get a good salary."
+
+        "Bad":
+
+            l "Unfortunately, it's not going very well. I have some struggles with it. But I think that the problems will
+                pass and everything will get better."
+            e "I see. It indeed is a challenging task to run a new business on your own. But I think that I can help you
+                with that."
+            l "What do you mean?"
+            e "I am from Titan Hypermart upper management. We would like to buy this store from you. You will receive a lot
+                of money for it. And you will be able to keep working here as a manager and get a good salary. With us you
+                will surely overcome all of your struggles."
+            e "Also, as you probably know, we are opening a new store in this city. If you agree, we won't have to 
+                compete with each other. We will be able to work together to optimize profits of both stores."
+            
+    menu:
+
+        e "So, what do you think of this offer?"
+
+        "Sell Cucumbermart":
+
+            l "I think it's a good offer. I'll sell the store to you."
+            e "Great! I'll send you the contract. I'm sure that you won't regret this decision."
+
+            jump titanHypermartEnding
+
+        "Don't sell Cucumbermart":
+
+            l "No, I'm not going to sell the store. I want to run it myself and to have full control over it."
+            e "I see. That's unfortunate. I think you're making a mistake. Here is my business card. If you change your
+                mind, feel free to contact me."
+
+            jump priceDumping
+
+
+
+label titanHypermartEnding:
+
+    scene expression cucumbermartBackground with dissolve
+
+    "In the next days I signed the contract and sold the store to Titan Hypermart. I kept working there as a manager.
+        I have a lot of money from selling the shop and from my manager salary. My life is good and rich now."
+    "But sometimes I feel bad about selling the store. After all I founded it because I wanted to run my own business,
+        to have full control over it and to make the decisions that I consider to be right. But now I'm again just 
+        a manager in a big corporation. And I have to follow their rules and do what they say."
+    "But in the end of the day I gained a lot from this. Now I and Sophie can afford everything we want. We are living 
+        a happy and comfortable life."
+    "{b}Ending 1/3.{/b}"
+    return
+
+
+
+label priceDumping:
+
+    "qqq"
