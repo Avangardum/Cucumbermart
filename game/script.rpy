@@ -320,6 +320,7 @@ label titanHypermartEnding:
     "But in the end of the day I gained a lot from this. Now I and Sophie can afford everything we want. We are living 
         a happy and comfortable life."
     "{b}Ending 1/3.{/b}"
+
     return
 
 
@@ -373,25 +374,142 @@ label priceDumping:
 
             jump bankruptcyEnding
 
-        "Sell the store":
+        "Sell Cucumbermart":
 
-            l "It seems like I have no other choice. I'll sell the store to Titan Hypermart."
-            l "I'll call Elliot tomorrow."
-
-            jump titanHypermartEnding
+            jump sellCucumbermartLater
 
         "Burn Titan Hypermart":
 
-            jump arsonEnding
+            jump arsonPreparation
 
 
 
 label bankruptcyEnding:
 
-    "bankruptcyEnding"
+    l "I'll take a loan. I'll keep working and I'll try to find a way to save the store. After all Titan Hypermart
+        can't keep their prices so low forever. I bet they are working at a loss right now. They will have to raise
+        their prices eventually. And then I will be able to compete with them again."
+
+    scene bg home with dissolve
+
+    "Days passed by. I was working hard. I was trying to find a way to save the store. But I couldn't. Titan Hypermart
+        kept their prices low. Eventually I completely ran out of money. I couldn't pay the loan back. I went bankrupt."
+    "My business was over. I lost my store. And the worst thing is that Titan Hypermart ended up buying it in a bankruptcy
+        auction. I was devastated."
+    "I am not sure what I will do next. I really don't want to come back working for Titan Hypermart after all they did 
+        to me. Maybe I should find a job in another city, in another shop. Or maybe I should change my entire career. 
+        I don't know. I guess time will tell."
+    "{b}Ending 2/3.{/b}"
+
+    return
+
+
+
+label sellCucumbermartLater:
+
+    l "It seems like I have no other choice. I'll sell the store to Titan Hypermart."
+    l "I'll call Elliot tomorrow."
+
+    jump titanHypermartEnding
+    
+
+
+label arsonPreparation:
+
+    l "I may seem stupid, but it looks like the only way to save my shop and my decency. I'll sneak into the Titan 
+        Hypermart and start a fire."
+    l "That's gonna be tough. I'll have to be very careful. I'll have to make sure that no one sees me. But in the end 
+        those bastards won't interfere with my life anymore."
+
+    scene black with dissolve
+
+    "I spent the next day preparing for the arson. I bought a canister of gasoline. I also bought a mask and gloves to 
+        hide my identity. I was ready to do it."
+
+    scene bg titanHypermart night 
+    show linda at left
+    with dissolve
+
+    "In the night I sneaked into the store. I ensured that there was no one inside. I was ready to start the fire."
+    "But I hesitated."
+    "Should I really do this? It's a crime. I can go to jail for this. What will happen to Sophie then?"
+    "What if someone gets hurt? What if someone dies? I don't want to be a murderer."
+    "Maybe I should dump this idea, get home and forget about this."
+
+    menu:
+
+        "What should I do?"
+
+        "Go home":
+
+            jump arsonCancelled
+
+        "Burn it down":
+
+            jump arsonEnding
+        
+
+
+label arsonCancelled:
+
+    "Fuck it, I'm not doing this! I must get out of here!"
+
+    scene bg home night with dissolve
+
+    "I returned home and got rid of all the clues."
+    "I almost made a terrible mistake. But now it's all over."
+    
+    menu:
+
+        "But that still leaves me with a question. What should I do with Cucumbermart?"
+
+        "Take a loan":
+
+            jump bankruptcyEnding
+
+        "Sell Cucumbermart":
+
+            jump sellCucumbermartLater
 
 
 
 label arsonEnding:
 
-    "arsonEnding"
+    "I'll do what I must. Whatever it takes."
+    "I spilled the gasoline around the shop."
+    "Then I took a lighter and ignited it."
+
+    show bg titanHypermart night fire with dissolve
+
+    "The store bursted into flames."
+    "A fire alarm went off."
+    "I need to get out of here."
+
+    show bg street night
+    show linda at left
+    with dissolve
+
+    "I rushed out of the shop. I ran away as fast as I could."
+    "I turned around a corner when..."
+
+    show policeOfficer at right with dissolve
+
+    p "Hey! Who you are?! What are you doing here?!"
+    l "I... I..."
+    p "You are under arrest on suspicion of being related to the fire in the store nearby. I'm taking you to the police 
+        station."
+    l "No, wait! I didn't do anything! I'm innocent!"
+    p "You will have a chance to prove it in court."
+
+    scene black with dissolve
+
+    "The court declared me guilty in arson. I was sentenced to 3 years in prison."
+    "Sophie was sent to an orphanage. I don't know what will happen to her now."
+    "The fire was quickly extinguished. The store was moderately damaged. Titan Hypermart repaired it and opened it again.
+        Fortunately no one was hurt."
+    "Titan Hypermart seized my shop as compensation for the damage."
+    "I lost everything. I lost my store. I lost my freedom. I lost my daughter."
+    "What have I done? Why did I do this? I was so stupid. I should have never done this."
+    "{b}Ending 3/3.{/b}"
+
+    return
