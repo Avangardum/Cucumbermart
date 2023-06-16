@@ -326,4 +326,72 @@ label titanHypermartEnding:
 
 label priceDumping:
 
-    "qqq"
+    scene bg titanHypermart
+    show linda at left
+    with dissolve
+
+    "A week later Titan Hypermart opened its shop in Sunrise city. I decided to visit it to see how it looks like."
+    "It looked kinda usual. Not much different from other Titan Hypermart stores."
+    l "Wait, what's that?!"
+    "I looked at the prices and was shocked. They were extremely low. Even lower that I bought products from suppliers."
+    "I was confused. How could they sell products at such low prices? I know that they are a big corporation and they
+        have a lot of money, but still. I know that they have a lot of expenses too. They have to pay salaries to their
+        employees, pay rent for the store, pay for electricity, etc."
+    "Are they doing this to drive me out of business? That can be a problem."
+    "I left the store with a feeling of anxiety. I was worried about my store. I was worried about my future."
+
+    scene expression cucumbermartBackground with dissolve
+
+    "In the following days I noticed that the number of customers in my store decreased. People were lured to Titan Hypermart
+        by their low prices. I had to lower my prices too to compete with them. But I couldn't lower them as much as they
+        did while still making profit. I started to lose money."
+    "With each day the situation was getting worse. I was losing more and more money. Eventually my savings almost ran out."
+
+    scene bg home night
+    show linda at right
+    with dissolve
+
+    "After another anxious day I came home. I was very tired and stressed. I was sitting on the couch and thinking about
+        what to do next."
+    l "It can't go on like this. I'm losing money every day. I can't keep working like this. I have to do something."
+    l "I can take a loan to keep the store running for some time. But if the things stay the same, I won't be able to 
+        pay it back. I will go bankrupt. And it doesn't seem like the situation will change. Titan Hypermart will keep
+        their low prices and I won't be able to compete with them."
+    l "Otherwise I can sell the store. Of course it will hurt me to do this, to give up on my dream. But I will get a lot
+        of money for it. My financial struggles will be over. And after all that seems to be the only way to save the store."
+    l "..."
+    l "Or is it?"
+    l "Maybe if something happened to Titan Hypermart, like a fire or something..."
+    l "No, that's a stupid idea. I can't do that."
+    l "..."
+    
+    menu:
+
+        l "So, what should I do?"
+
+        "Take a loan":
+
+            jump bankruptcyEnding
+
+        "Sell the store":
+
+            l "It seems like I have no other choice. I'll sell the store to Titan Hypermart."
+            l "I'll call Elliot tomorrow."
+
+            jump titanHypermartEnding
+
+        "Burn Titan Hypermart":
+
+            jump arsonEnding
+
+
+
+label bankruptcyEnding:
+
+    "bankruptcyEnding"
+
+
+
+label arsonEnding:
+
+    "arsonEnding"
