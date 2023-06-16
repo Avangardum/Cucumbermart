@@ -427,7 +427,7 @@ label arsonPreparation:
         hide my identity. I was ready to do it."
 
     scene bg titanHypermart night 
-    show linda at left
+    show linda mask at left
     with dissolve
 
     "In the night I sneaked into the store. I ensured that there was no one inside. I was ready to start the fire."
@@ -486,7 +486,7 @@ label arsonEnding:
     "I need to get out of here."
 
     show bg street night
-    show linda at left
+    show linda mask at left
     with dissolve
 
     "I rushed out of the shop. I ran away as fast as I could."
@@ -507,7 +507,7 @@ label arsonEnding:
     "Sophie was sent to an orphanage. I don't know what will happen to her now."
     "The fire was quickly extinguished. The store was moderately damaged. Titan Hypermart repaired it and opened it again.
         Fortunately no one was hurt."
-    "Titan Hypermart seized my shop as compensation for the damage."
+    "Titan Hypermart also seized Cucumbermart as a compensation for the damage."
     "I lost everything. I lost my store. I lost my freedom. I lost my daughter."
     "What have I done? Why did I do this? I was so stupid. I should have never done this."
     "{b}Ending 3/3.{/b}"
