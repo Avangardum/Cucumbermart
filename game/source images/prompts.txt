@@ -14,7 +14,8 @@ Elliot
 
 
 Police Officer
-
++ masterpiece, best quality, 1 man, {{{male}}}, {{{full height}}}, standing, looking at viewer, solid color background, police officer, policeman, blue uniform
+- bad quality, worst quality, bad anatomy, bad hands, nsfw, cropped, woman, girl, female, torn
 
 Cucumbermart, Titan Hypermart
 + masterpiece, best quality, grocery store, background, far shot

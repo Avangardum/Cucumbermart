@@ -109,7 +109,7 @@ label hungryHeartsAgree:
 
     "One week later"
 
-    show policeOfficer at left
+    show police_officer at left
     show linda at right
     with dissolve
 
@@ -119,7 +119,7 @@ label hungryHeartsAgree:
         caused food poisoning. You will have to visit a court in two days."
     l "Oh, I understand. I will be there."
     
-    hide policeOfficer with dissolve
+    hide police_officer with dissolve
 
     "Shit! That't not good."
     "How could this happen? I know that food is actually safe to eat even a few days after the expiration date. I only 
@@ -492,7 +492,7 @@ label arsonEnding:
     "I rushed out of the shop. I ran away as fast as I could."
     "I turned around a corner when..."
 
-    show policeOfficer at right with dissolve
+    show police_officer at right with dissolve
 
     p "Hey! Who you are?! What are you doing here?!"
     l "I... I..."
