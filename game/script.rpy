@@ -327,7 +327,7 @@ label titanHypermartEnding:
 
 label priceDumping:
 
-    scene bg titanHypermart
+    scene bg titan_hypermart
     show linda at left
     with dissolve
 
@@ -426,7 +426,7 @@ label arsonPreparation:
     "I spent the next day preparing for the arson. I bought a canister of gasoline. I also bought a mask and gloves to 
         hide my identity. I was ready to do it."
 
-    scene bg titanHypermart night 
+    scene bg titan_hypermart night 
     show linda at left
     with dissolve
 
@@ -479,7 +479,7 @@ label arsonEnding:
     "I spilled the gasoline around the shop."
     "Then I took a lighter and ignited it."
 
-    show bg titanHypermart night fire with dissolve
+    show bg titan_hypermart night fire with dissolve
 
     "The store bursted into flames."
     "A fire alarm went off."

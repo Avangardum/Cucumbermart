@@ -1,0 +1,21 @@
+Linda
++ masterpiece, best quality, 1 woman, 35yo, {{{full height}}}, blue jeans, white t-shirt, medium black hair, standing, looking at viewer, solid color background
+- bad quality, worst quality, bad anatomy, bad hands, nsfw, cropped, torn
+
+Sophie
++ masterpiece, best quality, 1 girl, 12yo, {{{full height}}}, standing, looking at viewer, solid color background, blue dress
+- bad quality, worst quality, bad anatomy, bad hands, nsfw, cropped
+
+Connor
++ masterpiece, best quality, 1 man, {{{male}}}, 30yo, middle aged, {{{full height}}}, black skin, black hair, black jeans, gray shirt, standing, looking at viewer, solid white background
+- bad quality, worst quality, bad anatomy, bad hands, nsfw, cropped, woman, girl, female, torn
+
+Elliot
+
+
+Police Officer
+
+
+Cucumbermart, Titan Hypermart
++ masterpiece, best quality, grocery store, background, far shot
+- bad quality, worst quality, people, human, text, sign, letters, hieroglyphs
