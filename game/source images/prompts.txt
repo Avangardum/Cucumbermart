@@ -11,7 +11,8 @@ Connor
 - bad quality, worst quality, bad anatomy, bad hands, nsfw, cropped, woman, girl, female, torn
 
 Elliot
-
++ masterpiece, best quality, middle aged man, old man, business suit, businessman, {{{full height}}}, standing, looking at viewer, solid color background
+- bad quality, worst quality, bad anatomy, bad hands, bad face, nsfw, cropped, woman, girl, female, bag, purse, suitcase
 
 Police Officer
 + masterpiece, best quality, 1 man, {{{male}}}, {{{full height}}}, standing, looking at viewer, solid color background, police officer, policeman, blue uniform
