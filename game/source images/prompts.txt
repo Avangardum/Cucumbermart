@@ -25,3 +25,7 @@ Cucumbermart, Titan Hypermart
 Street
 + masterpiece, best quality, street, empty street, background, far shot
 - bad quality, worst quality, people, human, text, sign, letters, hieroglyphs
+
+Home
++ masterpiece, best quality, home, interior, living room, background, far shot
+- bad quality, worst quality, people, human, text, sign, letters, hieroglyphs, luxury, window, sunlight, fireplace
