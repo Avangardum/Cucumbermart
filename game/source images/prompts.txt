@@ -21,3 +21,7 @@ Police Officer
 Cucumbermart, Titan Hypermart
 + masterpiece, best quality, grocery store, background, far shot
 - bad quality, worst quality, people, human, text, sign, letters, hieroglyphs
+
+Street
++ masterpiece, best quality, street, empty street, background, far shot
+- bad quality, worst quality, people, human, text, sign, letters, hieroglyphs

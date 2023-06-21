@@ -131,7 +131,7 @@ label hungryHeartsAgree:
         The Hungry Hearts Foundation was forced to close. I got off with a fine. The fine was pretty big, but at least
         my shop could continue to work as before."
 
-    scene bg street evening with dissolve
+    scene bg street night with dissolve
 
     "Later this evening"
 
