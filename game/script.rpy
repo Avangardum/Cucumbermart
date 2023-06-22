@@ -10,6 +10,8 @@ label start:
 
     scene bg street
 
+    play music "main music.mp3"
+
     "I am Linda Stevenson, 30 years old."
     "My husband John died 1 year ago leaving me with our 12 years old daughter Sophie."
     "For most of my life I worked in a grocery store chain Titan Hypermart. I went all the way from a regular employee 
@@ -115,6 +117,10 @@ label hungryHeartsAgree:
 
     p "Good afternoon. Are you Linda Stevenson?"
     l "Yes, I am."
+
+    stop music
+    play sound "boom.mp3"
+
     p "I came to inform you that there was a lawsuit filed against you. You was providing people expired food and it
         caused food poisoning. You will have to visit a court in two days."
     l "Oh, I understand. I will be there."
@@ -132,6 +138,8 @@ label hungryHeartsAgree:
         my shop could continue to work as before."
 
     scene bg street night with dissolve
+
+    play music "main music.mp3"
 
     "Later this evening"
 
@@ -416,6 +424,8 @@ label sellCucumbermartLater:
 
 label arsonPreparation:
 
+    stop music
+
     l "I may seem stupid, but it looks like the only way to save my shop and my decency. I'll sneak into the Titan 
         Hypermart and start a fire."
     l "That's gonna be tough. I'll have to be very careful. I'll have to make sure that no one sees me. But in the end 
@@ -454,6 +464,8 @@ label arsonCancelled:
 
     "Fuck it, I'm not doing this! I must get out of here!"
 
+    play music "main music.mp3"
+
     scene bg home night with dissolve
 
     "I returned home and got rid of all the clues."
@@ -482,6 +494,9 @@ label arsonEnding:
     show bg titan_hypermart night fire with dissolve
 
     "The store bursted into flames."
+
+    play sound "alarm.mp3"
+
     "A fire alarm went off."
     "I need to get out of here."
 
@@ -491,6 +506,8 @@ label arsonEnding:
 
     "I rushed out of the shop. I ran away as fast as I could."
     "I turned around a corner when..."
+
+    play sound "boom.mp3"
 
     show police_officer at right with dissolve
 
