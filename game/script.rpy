@@ -16,8 +16,8 @@ label start:
     "My husband John died 1 year ago leaving me with our 12 years old daughter Sophie."
     "For most of my life I worked in a grocery store chain Titan Hypermart. I went all the way from a regular employee 
         to a store manager."
-    "I love my job, however the company sometimes makes decisions that many consider to be immoral: mistreating workers,
-        working with questionable suppliers, etc. They care about money above everything else and this sometimes makes
+    "I loved my job, however the company sometimes made decisions that many considered to be immoral: mistreating workers,
+        working with questionable suppliers, etc. They cared about money above everything else and this sometimes made
         me feel disappointed."
     "Of course I was doing what I could to make my store a better place to work at, but, unfortunately, not all things
         were under my control"
@@ -235,8 +235,8 @@ label teddyBearAgree:
 
 label teddyBearRefuse:
 
-    l "No, Sophie. I can't buy it for you. It cost very much and you will probably get bored of it in a few days. How about
-        I buy you a smaller teddy bear? And we can buy some other toys too."
+    l "No, Sophie. I won't buy it for you. It costs very much and you will probably get bored of it in a few days. How 
+        about I buy you a smaller teddy bear instead? And we can buy some other toys too."
     s "Well, okay. I guess it's fine."
 
     jump visitByElliot
